@@ -15,7 +15,7 @@
 
 const t1 = 132458760
 let t2 = 98140723568910
-const t3 = 112233445566778899n //2^53 ten buyuk sayilar icin sona 'n' koy...
+const t3 = 112233445566778899n //for numbers bigger than 2^53. put 'n' at the end of number..
 
 const controleArr = Array.from({
     length: 10
