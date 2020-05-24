@@ -24,5 +24,6 @@ const censor = (stringValue) => {
             newValue.push(el);
         }
     });
-    console.log(newValue.toString());
+    return newValue.toString()
 }
+console.log(censor("aaaa aaaaa 1234 12345"));
